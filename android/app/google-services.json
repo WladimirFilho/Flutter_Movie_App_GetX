@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "287902679195",
+    "project_id": "app-movies-getx",
+    "storage_bucket": "app-movies-getx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287902679195:android:cfb9e735096a8e7195463e",
+        "android_client_info": {
+          "package_name": "com.example.movie_app_getx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287902679195-3d7k2lrpvack5kht1nv97cgegv7pm30k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVWtB9rgBsDW2bBsGVqtNZIZA2ZW7KRsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287902679195-3d7k2lrpvack5kht1nv97cgegv7pm30k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287902679195-53mv59c1rmaqfr4ql304pqvnhqu9rodd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wladimirfilho.appFilmesGetx"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287902679195:android:3257736c76d34da795463e",
+        "android_client_info": {
+          "package_name": "com.wladimirfilho.app_filmes_getx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287902679195-3d7k2lrpvack5kht1nv97cgegv7pm30k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVWtB9rgBsDW2bBsGVqtNZIZA2ZW7KRsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287902679195-3d7k2lrpvack5kht1nv97cgegv7pm30k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287902679195-53mv59c1rmaqfr4ql304pqvnhqu9rodd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wladimirfilho.appFilmesGetx"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
