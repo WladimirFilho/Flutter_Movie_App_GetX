@@ -7,10 +7,11 @@ class AuthServices extends GetxService {
   void init() {
     FirebaseAuth.instance.authStateChanges().listen((User? user) {
       this.user = user;
-      if (user != null) {
-        Get.offAllNamed('/home');
-      } else {
+
+      if (user == null) {
         Get.offAllNamed('/login');
+      } else {
+        Get.offAllNamed('/home');
       }
     });
   }

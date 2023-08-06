@@ -1,4 +1,5 @@
 import 'package:movie_app_getx/application/bindings/application_binding.dart';
+import 'package:movie_app_getx/application/ui/movie_app_ui_config.dart';
 import 'package:movie_app_getx/firebase_options.dart';
 import 'package:movie_app_getx/modules/home/home_module.dart';
 import 'package:movie_app_getx/modules/login/login_module.dart';
@@ -27,11 +28,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Movies GetX',
+      title: MovieAppUiConfig.title,
       initialBinding: ApplicationBinding(),
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: MovieAppUiConfig.theme,
       getPages: [
         ...SplashModule().routers,
         ...LoginModule().routers,
